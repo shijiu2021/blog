@@ -1,0 +1,20 @@
+baseURL = 'https://oilvlio.cn/'
+languageCode = 'zh-CN'
+title = '玖的个人博客'
+
+# 基本配置
+[params]
+  description = '记录生活，分享想法'
+  author = '玖'
+  
+# 菜单
+[[menu.main]]
+  identifier = 'posts'
+  name = '文章'
+  url = '/posts/'
+  weight = 1
+[[menu.main]]
+  identifier = 'about'
+  name = '关于'
+  url = '/about/'
+  weight = 2
